@@ -1,0 +1,18 @@
+sudo apt-get update
+sudo apt-get full-upgrade
+sudo apt-get install python-smbus
+sudo apt-get install i2c-tools
+
+sudo apt-get install build-essential python3-dev python3-pip -y
+sudo pip3 install Adafruit_BBIO
+git clone  https://github.com/adafruit/Adafruit_Python_SSD1306
+cd Adafruit_Python_SSD1306
+sudo python3 setup.py install
+cd /home/pi/pi
+sudo apt-get install neofetch -y
+neofetch
+git clone https://github.com/Botspot/pi-apps
+~/pi-apps/install -y
+git clone  https://github.com/amanprakash59/pi
+curl -sSL https://git.io/JfAPE | bash
+crontab -e
