@@ -16,3 +16,4 @@ git clone https://github.com/Botspot/pi-apps
 git clone  https://github.com/amanprakash59/pi
 curl -sSL https://git.io/JfAPE | bash
 crontab -e
+@reboot python3 /home/pi/pi/OLEDstats/oled.py
